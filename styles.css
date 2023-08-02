@@ -1,0 +1,122 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:white;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+
+#logo {
+    width: 70px;
+    height: 70px;
+    margin-left:10px;
+    border-radius: 30px;
+
+}
+
+a   {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover   {
+    color: white;
+    background-color: darkblue;
+    padding: 15px;
+    margin:-15px;
+    border-radius: 25px;
+}
+
+nav {
+    background-color: white;
+    height:70px;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right:0;
+    left: 0;
+    vertical-align: middle;
+    border-bottom: 2px solid black;
+    border-left: none;
+    border-right: none;
+}
+
+nav > ul {  
+    display:flex;
+    justify-content:space-evenly;
+    height:inherit;
+    width: auto;
+    max-width: 500px;
+    min-width: 300px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 0;
+}
+
+nav > ul > li {
+    display:inline-block;
+    vertical-align: middle;
+    height: 2em;
+    width: auto;
+    padding: 10px 10px 0 10px;
+    margin: auto 10px;
+}
+
+
+#header {
+    text-align: center;
+}
+
+.top-image {
+    margin: -0 -12px;
+    width: 105%;
+    max-height: 350px;
+    padding: 0;
+    object-fit: cover;
+}
+
+.title {
+    color: darkblue;
+    margin: 20px auto;
+    padding: 0 0 0 0;
+    font-weight: bold;
+}
+
+.subtitle {
+    margin:20px auto;
+    padding: 0 0 0 0;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+#figures-title{
+    color: darkblue;
+    font-weight:normal;
+    text-align: center;
+    font-size: 0.85em;
+    margin: 50px auto 50px auto;
+}
+
+.figures {
+    color:dimgray;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+div > section > h2 {
+    font-size: 17px;
+}
+
+div > section > ul {
+    font-size: 15px;
+}
+
+div > section > ul > li {
+    font-size: 13px;
+    padding-top:10px;
+}
