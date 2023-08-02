@@ -21,7 +21,7 @@ a   {
     font-weight: bold;
 }
 
-a:hover   {
+.navigate-link:hover   {
     color: white;
     background-color: darkblue;
     padding: 15px;
@@ -72,11 +72,11 @@ nav > ul > li {
     text-align: center;
 }
 
+
 .top-image {
     margin: -0 -12px;
-    width: 105%;
+    width: 100vw;
     max-height: 350px;
-    padding: 0;
     object-fit: cover;
 }
 
@@ -94,7 +94,7 @@ nav > ul > li {
     font-weight: normal;
 }
 
-#figures-title{
+.sub-page-title{
     color: darkblue;
     font-weight:normal;
     text-align: center;
@@ -105,7 +105,10 @@ nav > ul > li {
 .figures {
     color:dimgray;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+    margin: 0 30px;
+
 }
 
 div > section > h2 {
@@ -119,4 +122,21 @@ div > section > ul {
 div > section > ul > li {
     font-size: 13px;
     padding-top:10px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.photos {
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 5px 2px 2px 1px lightslategray;
 }
